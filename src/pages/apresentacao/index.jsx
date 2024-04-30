@@ -6,7 +6,7 @@ const SobreMim = () => {
     <div className="sobre-mim-container">
       <div className="image-container">
         <img
-          src="caminho/para/sua/foto.jpg" // Substitua pelo caminho da sua foto
+          src='C:\Users\User\Documents\Curso HTML\template-materialui\src\imagens' 
           alt="Minha Foto"
           className="profile-image"
         />
@@ -14,14 +14,15 @@ const SobreMim = () => {
       <div className="text-container">
         <h1>Sobre Mim</h1>
         <p>
-          Olá! Meu nome é [Seu Nome]. Eu sou [sua profissão ou uma breve descrição sobre você].
+          Oi pessoal! Meu nome é Igor, tenho 28 anos e estou tentando entrar no ramo de programção.
         </p>
         <p>
-          [Fale um pouco mais sobre você, seus interesses, hobbies, habilidades, etc.]
+          Trabalho na area de TI a 9 anos, más somente na parte de Hardwere. Sempre me interessei em escrever codigos apenas por hobbie, só que um dia decidi transformar em carreira.
+          Tenho um pouco de experiência com front-end, porem apenas para projetos próprios.
         </p>
       </div>
     </div>
   );
 };
 
-export default AboutMe;
+export default SobreMim;
